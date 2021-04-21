@@ -1,0 +1,21 @@
+Object-oriented analysis (OOA):
+It is the process of looking at a problem, system, or task
+(that somebody wants to turn into an application) and identifying the objects and
+interactions between those objects. The analysis stage is all about what needs to be done.
+
+Object-oriented design (OOD):
+It is the process of converting such requirements into an
+implementation specification. The designer must name the objects, define the behaviors,
+and formally specify which objects can activate specific behaviors on other objects. The
+design stage is all about how things should be done.
+
+Object-oriented programming (OOP):
+It is the process of converting this perfectly-defined
+design (from OOD) into a working program.
+
+Object: 
+Objects are instances of classes that can be associated with each other. 
+An object instance is a specific object with its own set of data and behaviors.
+    Data: Data represents the individual characteristics of a certain object
+    Behavior: Behaviors are actions that can occur on an object. 
+    The behaviors that can be performed on a specific class of object are called methods.
