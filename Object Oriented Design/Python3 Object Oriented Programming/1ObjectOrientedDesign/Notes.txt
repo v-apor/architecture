@@ -19,3 +19,5 @@ An object instance is a specific object with its own set of data and behaviors.
     Data: Data represents the individual characteristics of a certain object
     Behavior: Behaviors are actions that can occur on an object. 
     The behaviors that can be performed on a specific class of object are called methods.
+
+Case Study about Library Catalog Design
