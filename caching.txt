@@ -1,0 +1,19 @@
+It's a data storing technique
+Store and retrieve data (quickly) for future use
+Uses locality to store data closer to where it is likely to be needed
+It can also refer to storing precomputed data which might be difficult to compute on demand
+Types:
+1. In-memory application cache (fast and straight forward but expensive)
+2. Distributed in-memory cache (like redis)
+3. File system cache (like CDN)
+
+Caching policy - what to keep and what not to in cache (cos can't store everything)
+example policies:
+- FIFO - First in, first out
+- LRU - Least recently used (keep the recently used ones)
+- LFU - Least frequently used (keep the most frequently used ones))
+
+Cache coherence - how to keep app memory and cache consistent
+- write-through cache: updates cache and memory at the same time
+- write-behind cache: memory update asynchronously (might be inconsistent but fast)
+- cache-aside (lazy loading): data is loaded on demand (slow but consistent)
